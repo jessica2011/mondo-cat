@@ -23,8 +23,6 @@ header {
   width: 100%;
   height: auto;
   overflow: hidden; 
-  /* clear: both; */
-  /* display: table; */
 }
 
 .row::after {
@@ -392,9 +390,15 @@ img {
 }
 
 /*visualizaion de bloque*/
-.none {
+.view-mobile {
+  display: block;
+}
+
+.view-desktop {
   display: none;
 }
+
+
 
 /*float right*/
  .right {
@@ -435,6 +439,7 @@ p {
   display: inline-block;
   font-size: 18px;
   vertical-align: super;
+  margin: 10px 0;
 }
 
 .bg-image {
@@ -503,7 +508,12 @@ p {
   cursor: pointer;
 }
 
-/******************************************************************/
+li {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+/*************************************************************/
 body {
   background-color: #FFE4C4;
 }
@@ -542,7 +552,7 @@ h3::before {
 .button {
   color: white;
   background-color: #FFA07A;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 a, i {
@@ -559,7 +569,26 @@ button:hover {
   background-color: #FFE4C4;
 }
 
+li::after {
+  content: '|';
+  padding-left: 10px;
+  color: white;
+
+}
+
 /******************Desktop**************************/
 
+@media (min-width: 992px) {
+  .view-mobile {
+    display: none;
+  }
+  
+  .view-desktop {
+    display: block;
+  }
 
+  .box {
+    height: 270px;;
+  }
+}
 
