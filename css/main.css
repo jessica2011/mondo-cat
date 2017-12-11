@@ -10,8 +10,8 @@
 
 .container {
   width: 100%;
-  margin: 0 auto;
   max-width: 1200px;
+  margin: 0 auto;
 }
 
 header {
@@ -506,8 +506,14 @@ p {
 
 li {
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 40px;
 }
+
+.margin-bottom {
+  margin: 20px 0 20px 6.5%;
+}
+
+
 
 /*************************************************************/
 body {
@@ -515,8 +521,8 @@ body {
 }
 
 .logo {
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   display: inline-block;
 }
 
@@ -526,6 +532,10 @@ body {
 
 .portada {
  background-image: URL('../assets/images/mulher-portada.jpg');
+}
+
+.font {
+  font-size: 30px;
 }
 
 
@@ -542,7 +552,7 @@ h3::before {
   height: 1px;
   width: 80%;
   background-color: black;
-  margin:15px 10%;
+  margin:10px 10%;
 }
 
 .button {
@@ -553,7 +563,7 @@ h3::before {
 
 a, i {
   color: white;
-  padding: 5px;
+  padding: 15px 0;
 }
 
 .c-black:hover {
@@ -569,7 +579,6 @@ li::after {
   content: '|';
   padding-left: 10px;
   color: white;
-
 }
 
 /******************Desktop**************************/
@@ -587,9 +596,8 @@ li::after {
     height: 270px;
   }
 
-  .tamaño-fig {
-    width: 300px;
-    height: 200px;
+  .fig img {
+    height: 300px;
   }
 }
 
