@@ -461,10 +461,6 @@ p {
   font-size: 30px;
 }
 
-.margin-botton {
-  margin: 15px 0;
-}
-
 /*bg-colors*/
 
 .bg-white {
@@ -588,7 +584,12 @@ li::after {
   }
 
   .box {
-    height: 270px;;
+    height: 270px;
+  }
+
+  .tamaño-fig {
+    width: 300px;
+    height: 200px;
   }
 }
 
