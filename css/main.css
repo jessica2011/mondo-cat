@@ -433,7 +433,7 @@ h3 {
 /*cualquier parrafo por defecto*/
 p { 
   display: inline-block;
-  font-size: 20px;
+  font-size: 18px;
   vertical-align: super;
 }
 
@@ -460,18 +460,36 @@ p {
   margin: 15px 0;
 }
 
-/*colors*/
+/*bg-colors*/
 
-.c-white {
+.bg-white {
   background-color: white;
  }
 
- .c-peachPuff {
+ .bg-peachPuff {
    background-color: #FFDAB9;
  }
 
- .c-rosa {
+ .bg-rosa {
   background-color: #FFA07A;
+ }
+
+ /*fonts-colors*/
+
+ .c-white {
+   color:white;
+ }
+
+ .c-black {
+   color: rgb(54, 54, 54); 
+ }
+
+ .c-dimgray {
+  color: #696969;
+ }
+
+ .c-green {
+   color: rgb(1, 128, 1)
  }
 
 /*boton*/
@@ -524,12 +542,24 @@ h3::before {
 .button {
   color: white;
   background-color: #FFA07A;
+  font-size: 18px;
 }
 
-.margin {
-  width: 100%;
-  margin: 20px 0;
+a, i {
+  color: white;
+  padding: 5px;
 }
+
+.c-black:hover {
+ color: #FFA07A;
+}
+
+button:hover {
+  color: rgb(116, 113, 113);
+  background-color: #FFE4C4;
+}
+
+/******************Desktop**************************/
 
 
 
